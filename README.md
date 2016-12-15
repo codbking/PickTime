@@ -2,8 +2,11 @@
 ## 日期选择控件 ##
 
 
-<img src="image/all.png"/>
-
+<img src="image/all.jpg" height="320" width="180" />
+<img src="image/hm.jpg" height="320" width="180" />
+<img src="image/ymd.jpg" height="320" width="180" />
+<img src="image/ymdh.jpg" height="320" width="180" />
+<img src="imageymdhm.jpg" height="320" width="180" />
 
 **DateType**
 
