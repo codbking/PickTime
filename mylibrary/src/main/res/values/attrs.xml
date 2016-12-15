@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WheelFullDatePickerStyle">
+
+        <!-- 顯示民國年 -->
+        <attr name="showTaiwanYear" format="boolean" />
+        <!-- 小於0的數字前面加0 -->
+        <attr name="addZeroIfSmallThanTen" format="boolean" />
+        <!-- 選單日期是否即時顯示 -->
+        <attr name="setCurrentTimeVisible" format="boolean" />
+        <!-- 能不能設定今天以前的時間 -->
+        <attr name="canSetUpPastTime" format="boolean" />
+        <!-- 能不能設定今天以後的時間 -->
+        <attr name="canSetUpFutureTime" format="boolean" />
+        <!-- 是否顯示年月日字串 -->
+        <attr name="showDateLastString" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="WheelTwoDimensionPickerStyle">
+
+        <!-- 是否總是顯示兩個滾輪 -->
+        <attr name="alwaysShowTwoWheel" format="boolean" />
+        <!-- 如果滾輪樣式是純粹顯示文字，左邊滾輪的顯示行數 預設為一行 -->
+        <attr name="leftWheelVisibleLine" format="integer" />
+        <!-- 如果滾輪樣式是純粹顯示文字，右邊滾輪的顯示行數 預設為一行 -->
+        <attr name="rightWheelVisibleLine" format="integer" />
+        <!-- 如果滾輪樣式是純粹顯示文字，兩邊滾輪的文字大小 格式為dip -->
+        <attr name="wheelTwoDimensionTextSize" format="integer" />
+        <!-- 是否即時顯示所選資料 -->
+        <attr name="isCurrentSelectVisible" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="WheelSinglePickerStyle">
+
+        <!-- 如果滾輪樣式是純粹顯示文字，滾輪的顯示行數 預設為一行 -->
+        <attr name="visibleLine" format="integer" />
+        <!-- 如果滾輪樣式是純粹顯示文字，兩邊滾輪的文字大小 格式為dip -->
+        <attr name="singleTextSize" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="TriangleViewStyle">
+        <attr name="triangleColor" format="reference|color" />
+        <attr name="shapeArrow">
+
+            <!-- show event in current month. -->
+            <enum name="UP" value="0" />
+            <!-- show event in current month and preious month. -->
+            <enum name="DOWN" value="1" />
+            <!-- show event in current month and next month. -->
+            <enum name="RIGHT" value="2" />
+            <!-- show event in all month. -->
+            <enum name="LEFT" value="3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="WheelTimerStyle">
+        <!-- 是否總是顯示兩個滾輪 -->
+        <attr name="timeMode">
+            <!-- 選擇模式 -->
+            <enum name="select" value="0" />
+            <!-- 倒數模式 -->
+            <enum name="countDown" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="DatePicker">
+        <attr name="picker_text_color" format="color" />
+        <attr name="picker_select_textColor" format="color" />
+        <attr name="picker_split" format="color" />
+        <attr name="picker_split_height" format="dimension" />
+    </declare-styleable>
+
+</resources>
