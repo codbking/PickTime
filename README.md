@@ -4,11 +4,12 @@
 
 ### 截图
 
-<img src="image/all.jpg" height="320" width="180" style="padding-right:100px"/>
-<img src="image/ymdhm.jpg" height="320" width="180" style="padding-right:100px"/>
-<img src="image/ymdh.jpg" height="320" width="180" style="padding-right:100px"/>
-<img src="image/ymd.jpg" height="320" width="180" style="padding-right:100px"/>
-<img src="image/hm.jpg" height="320" width="180" />
+
+<img src="image/all.jpg" height="320" width="180" style="margin-left:100"/>
+<img src="image/ymdhm.jpg" height="320" width="180" style="margin-left:100"/>
+<img src="image/ymdh.jpg" height="320" width="180" style="margin-left:100"/>
+<img src="image/ymd.jpg" height="320" width="180" style="margin-left:100"/>
+<img src="image/hm.jpg" height="320" width="180" style="margin-left:100"/>
 
 
 ### DateType
