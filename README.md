@@ -2,6 +2,9 @@
 ## 日期选择控件 ##
 
 
+![Alt text](image/all.jpg)![Alt text](image/all.jpg)![Alt text](image/all.jpg)![Alt text](image/all.jpg)
+
+
 **DateType**
 
     public enum DateType {
