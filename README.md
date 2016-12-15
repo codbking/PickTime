@@ -2,7 +2,7 @@
 ## 日期选择控件 ##
 
 
-![Alt text](image/all.jpg)![Alt text](image/all.jpg)![Alt text](image/all.jpg)![Alt text](image/all.jpg)
+<img src="image/all.png"/>
 
 
 **DateType**
