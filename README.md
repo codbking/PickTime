@@ -2,32 +2,26 @@
 ## 日期选择控件 ##
 
 
+### 截图
 
-<img src="image/all.jpg" height="320" width="180" />
-<br />
-<img src="image/ymdhm.jpg" height="320" width="180" />
-<br />
-<img src="image/ymdh.jpg" height="320" width="180" />
-<br />
-<img src="image/ymd.jpg" height="320" width="180" />
-<br />
+<img src="image/all.jpg" height="320" width="180" style="padding-right:100px"/>
+<img src="image/ymdhm.jpg" height="320" width="180" style="padding-right:100px"/>
+<img src="image/ymdh.jpg" height="320" width="180" style="padding-right:100px"/>
+<img src="image/ymd.jpg" height="320" width="180" style="padding-right:100px"/>
 <img src="image/hm.jpg" height="320" width="180" />
 
 
+### DateType
 
+- TYPE_ALL--年、月、日、星期、时、分
+- TYPE_YMDHM--年、月、日、时、分
+- TYPE_YMDH--年、月、日、时
+- TYPE_YMD--年、月、日
+- TYPE_HM--时、分
 
-**DateType**
+### 设置
 
-    public enum DateType {
-       TYPE_ALL ,//年、月、日、星期、时、分
-       TYPE_YMDHM ,//年、月、日、时、分
-       TYPE_YMDH ,//年、月、日、时
-       TYPE_YMD ,//年、月、日
-       TYPE_HM ,//时、分
-     }
-
-**设置**
-
+```
             DatePickDialog dialog = new DatePickDialog(this);
             //设置上下年分限制
             dialog.setYearLimt(5);
@@ -42,7 +36,7 @@
             //设置点击确定按钮回调
             dialog.setOnSureLisener(null);
             dialog.show();
-
+```
 
 
 
