@@ -4,13 +4,13 @@
 
 ### 截图
 
-
+<div style="backgroud-color:grb(43,43,43)">
 <img src="image/all.jpg" height="320" width="180" style="margin-left:100"/>
 <img src="image/ymdhm.jpg" height="320" width="180" style="margin-left:100"/>
 <img src="image/ymdh.jpg" height="320" width="180" style="margin-left:100"/>
 <img src="image/ymd.jpg" height="320" width="180" style="margin-left:100"/>
 <img src="image/hm.jpg" height="320" width="180" style="margin-left:100"/>
-
+</div>
 
 ### DateType
 
@@ -22,7 +22,7 @@
 
 ### 设置
 
-```
+```java
             DatePickDialog dialog = new DatePickDialog(this);
             //设置上下年分限制
             dialog.setYearLimt(5);
