@@ -22,8 +22,27 @@
 - TYPE_YMD--年、月、日
 - TYPE_HM--时、分
 
-### 设置
+### how to use
 
+ - **Add it in your root build.gradle at the end of repositories:**
+
+```
+	    allprojects {
+		   repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	    }
+```
+
+ -  **Add the dependency**
+```sh
+	dependencies {
+	        compile 'com.github.codbking:PickTime:v1.0.0'
+	}
+```
+
+ -  **java**
 ```java
         DatePickDialog dialog = new DatePickDialog(this);
         //设置上下年分限制

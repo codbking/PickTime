@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         //设置标题
         dialog.setTitle("选择时间");
         //设置类型
-        dialog.setType(DateType.TYPE_ALL);
+        dialog.setType(type);
         //设置消息体的显示格式，日期格式
         dialog.setMessageFormat("yyyy-MM-dd HH:mm");
         //设置选择回调
