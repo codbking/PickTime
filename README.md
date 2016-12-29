@@ -38,7 +38,7 @@
  -  **Add the dependency**
 ```sh
 	dependencies {
-	        compile 'com.github.codbking:PickTime:v1.0.0'
+	        compile 'com.github.codbking:PickTime:v1.0.1'
 	}
 ```
 
