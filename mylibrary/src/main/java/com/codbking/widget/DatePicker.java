@@ -3,10 +3,14 @@ package com.codbking.widget;
 import android.content.Context;
 import android.widget.TextView;
 
+import com.codbking.widget.adapters.WheelViewAdapter;
+import com.codbking.widget.genview.WheelGeneralAdapter;
 import com.codbking.widget.view.WheelView;
 import com.codbking.widget.bean.DateType;
 
 import java.util.Date;
+
+import static android.R.attr.data;
 
 /**
  * Created by codbking on 2016/8/10.
@@ -166,6 +170,9 @@ class DatePicker extends BaseWheelPick {
 
     private void setChangeDaySelect(int year, int moth) {
         dayArr = datePicker.genDay(year, moth);
+        WheelGeneralAdapter adapter= (WheelGeneralAdapter) dayView.getViewAdapter();
+        adapter.setData(convertData(dayView,  dayArr));
+
         int indxt = datePicker.findIndextByValue(selectDay, dayArr);
         if (indxt == -1) {
             dayView.setCurrentItem(0);

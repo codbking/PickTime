@@ -167,7 +167,7 @@ class DatePickerHelper {
 
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(new DatePickerHelper().genDay(2016,12)));
+        System.out.println(Arrays.toString(new DatePickerHelper().genDay(2016,2)));
 
     }
 
