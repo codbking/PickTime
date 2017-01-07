@@ -1,14 +1,17 @@
 # PickTime
 ## 日期选择控件 ##
 
-
+[![](https://jitpack.io/v/codbking/PickTime.svg)](https://jitpack.io/#codbking/PickTime)
 ### 截图
 
-<img src="image/all.jpg" height="320" width="180" style="margin-left:100"/>
-<img src="image/ymdhm.jpg" height="320" width="180" style="margin-left:100"/>
-<img src="image/ymdh.jpg" height="320" width="180" style="margin-left:100"/>
-<img src="image/ymd.jpg" height="320" width="180" style="margin-left:100"/>
-<img src="image/hm.jpg" height="320" width="180" style="margin-left:100"/>
+|TYPE_ALL|TYPE_YMDHM|TYPE_YMDH|TYPE_YMD|TYPE_HM|
+|:--:|:--:|:--:|:--:|:--:|
+|![Alt text](image/all.jpg)|![Alt text](image/ymdhm.jpg)|![Alt text](image/ymdh.jpg)|![Alt text](image/ymd.jpg)|![Alt text](image/hm.jpg)|
+<!--<img src="image/all.jpg" height="320" width="180" style="margin-left:100"/>-->
+<!--<img src="image/ymdhm.jpg" height="320" width="180" style="margin-left:100"/>-->
+<!--<img src="image/ymdh.jpg" height="320" width="180" style="margin-left:100"/>-->
+<!--<img src="image/ymd.jpg" height="320" width="180" style="margin-left:100"/>-->
+<!--<img src="image/hm.jpg" height="320" width="180" style="margin-left:100"/>-->
 
 ### 效果
 
