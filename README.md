@@ -2,7 +2,11 @@
 ## 日期选择控件 ##
 
 [![](https://jitpack.io/v/codbking/PickTime.svg)](https://jitpack.io/#codbking/PickTime)
+
+ [**apk下载**](https://raw.githubusercontent.com/codbking/PickTime/master/app-debug.apk)
+
 ### 截图
+------------------
 
 |TYPE_ALL|TYPE_YMDHM|TYPE_YMDH|TYPE_YMD|TYPE_HM|
 |:--:|:--:|:--:|:--:|:--:|
@@ -14,6 +18,7 @@
 <!--<img src="image/hm.jpg" height="320" width="180" style="margin-left:100"/>-->
 
 ### 效果
+-------------
 
 ![Alt text](image/dd.gif)
 
