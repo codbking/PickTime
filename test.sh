@@ -1,2 +1,2 @@
 #! /bin/bash
-sudo mkdir test
+sudo mkdir /opt/test
