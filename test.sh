@@ -1,1 +1,2 @@
-`sudo mkdir test`
+#! /bin/bash
+sudo mkdir test
