@@ -1,1 +1,1 @@
-sudo mkdir test
+`sudo mkdir test`
